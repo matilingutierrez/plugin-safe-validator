@@ -80,5 +80,4 @@ The new security check should follow the existing patterns and maintain high cod
 This project was made for [Safe Agentathon](https://safe.global/ai). The main package used for this development was the [Safe{Core} SDK](https://docs.safe.global/sdk/overview)
 
 ## License
-
-This plugin is part of the Eliza project. See the main project repository for license information.
+MIT
