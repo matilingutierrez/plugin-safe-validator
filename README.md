@@ -1,6 +1,6 @@
-# @elizaos/plugin-safe-validator
+# Plugin Safe Validator
 
-This plugin provides comprehensive multisig transaction validation and signing capabilities through integration with Safe's SDK.
+This plugin provides comprehensive multisig transaction validation and signing capabilities through integration with Safe's SDK. You can also import the `checkTxSecurity` function and implement it however you want
 
 ## Description
 
