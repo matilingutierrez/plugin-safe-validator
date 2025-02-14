@@ -1,6 +1,6 @@
 import {
   maxUint256
-} from "./chunk-P2KTBFV4.js";
+} from "./chunk-GWNANQL4.js";
 import "./chunk-PR4QN5HX.js";
 
 // src/actions/checkTxSecurityAndSign.ts
@@ -4008,9 +4008,9 @@ var safeValidatorPlugin = {
   services: [],
   actions: [getCheckTxSecurityAndSignAction()]
 };
-var index_default = safeValidatorPlugin;
+var checkTxSecuritySingle = checkTxSecurity;
 export {
-  index_default as default,
+  checkTxSecuritySingle,
   safeValidatorPlugin
 };
 //# sourceMappingURL=index.js.map

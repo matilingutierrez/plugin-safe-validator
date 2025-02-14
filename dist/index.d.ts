@@ -1,3 +1,4 @@
+import * as _safe_global_types_kit from '@safe-global/types-kit';
 import { Plugin } from '@elizaos/core';
 
 interface CheckTxSecurityAndSignResponse {
@@ -7,5 +8,6 @@ interface CheckTxSecurityAndSignResponse {
 }
 
 declare const safeValidatorPlugin: Plugin;
+declare const checkTxSecuritySingle: (transaction: _safe_global_types_kit.SafeMultisigTransactionResponse, owners: string[]) => string;
 
-export { type CheckTxSecurityAndSignResponse, safeValidatorPlugin as default, safeValidatorPlugin };
+export { type CheckTxSecurityAndSignResponse, checkTxSecuritySingle, safeValidatorPlugin };
