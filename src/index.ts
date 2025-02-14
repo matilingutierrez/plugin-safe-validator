@@ -2,6 +2,7 @@ export * from "./types";
 
 import type { Plugin } from "@elizaos/core";
 import { getCheckTxSecurityAndSignAction } from "./actions/checkTxSecurityAndSign";
+import { checkTxSecurity } from "./utils/checkTxSecurity";
 
 export const safeValidatorPlugin: Plugin = {
     name: "safe-validator",
@@ -11,5 +12,7 @@ export const safeValidatorPlugin: Plugin = {
     services: [],
     actions: [getCheckTxSecurityAndSignAction()],
 };
+
+export { checkTxSecurity };
 
 export default safeValidatorPlugin;
