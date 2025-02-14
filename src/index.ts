@@ -13,6 +13,4 @@ export const safeValidatorPlugin: Plugin = {
     actions: [getCheckTxSecurityAndSignAction()],
 };
 
-export { checkTxSecurity };
-
-export default safeValidatorPlugin;
+export default { safeValidatorPlugin, checkTxSecurity };
